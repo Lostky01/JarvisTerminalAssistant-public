@@ -1,0 +1,9 @@
+psutil
+requests
+sounddevice
+soundfile
+SpeechRecognition
+edge-tts
+termcolor
+pyfiglet
+ric
