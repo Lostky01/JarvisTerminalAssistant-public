@@ -2,6 +2,9 @@
 
 **Jarvis** is a sarcastic, confident, and fully voice-controlled terminal assistant powered by the Groq LLM API. It responds to your voice commands, executes shell tasks, cracks jokes, plays music, opens apps, and even roasts your sorry ass if needed.
 
+<img width="580" height="264" alt="image" src="https://github.com/user-attachments/assets/d34c6e99-1391-4391-8bed-8e708fe8b695" />
+
+
 ## ⚙️ Features
 
 - 🎙️ Voice activation with `wake up` / `hey jarvis` and deactivation with `thank you jarvis`
