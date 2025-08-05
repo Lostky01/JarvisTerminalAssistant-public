@@ -35,17 +35,38 @@
     pip install -r requirements.txt
     ```
 
-2. Set your Groq API key in `call_llm()`:
+2. Set your [Groq API](https://console.groq.com/docs/overview) key in `call_llm()`:
     ```python
     "Authorization": "Bearer YOUR_GROQ_API_KEY",
     ```
 
-3. Run the main file:
+3. Set your [Spotify](https://developer.spotify.com/documentation/web-api) API client id and secret in `spotify_player.py`:
+    ```python
+    sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
+        client_id="YOUR_CLIENT_ID",
+        client_secret="YOUR_CLIENT_SECRET",
+        redirect_uri="http://127.0.0.1:8888/callback",
+        scope="user-read-playback-state,user-modify-playback-state,user-read-currently-playing"
+    ))
+    ```    
+4. Set your [WeatherAPI](https://weatherapi.com/) client key in `weather.py`:
+    ```python
+    res = requests.get(
+            "http://api.weatherapi.com/v1/current.json",
+            params={
+                "key": "YOUR_KEY_HERE",
+                "q": city,
+                "aqi": "no"
+            }
+        )
+    ```
+    
+5. Run the main file:
     ```bash
     python jarvis.py
     ```
 
-4. Say `Hey Jarvis` and give it commands like:
+6. Say `Hey Jarvis` and give it commands like:
     - "Run `npm install express`"
     - "Open YouTube"
     - "What's my CPU usage"
