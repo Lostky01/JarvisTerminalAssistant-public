@@ -9,7 +9,7 @@
 
 - 🎙️ Voice activation with `wake up` / `hey jarvis` and deactivation with `thank you jarvis`
 - 🗣️ Edge TTS with `en-US-GuyNeural` for natural replies
-- 🤖 Uses `llama3-70b-8192` via Groq API for witty, no-BS AI responses
+- 🤖 Uses `llama3-70b-8192` via Groq API for witty, no-BS AI responses, you can change this model with any LLM models available (Groq AI, Huggingface, OpenAI, etc)
 - 💻 Runs real shell commands if you ask it to (npm, pip, git, etc.)
 - 🌐 Opens websites like YouTube, Spotify, ChatGPT, Reddit, and more
 - 🎧 Spotify integration: play songs by voice
